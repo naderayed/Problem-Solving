@@ -81,19 +81,20 @@ public class Solution {
      Complexity : O(n)
      */
     public int[] twoSum(int[] nums, int target) {
-        int[] res =new int[2];
-        Map<Integer,Integer> map= new TreeMap<>();
-        for(int i=0;i<nums.length;i++){
-            if(map.containsKey(target-nums[i])){
-                res[0]=i;
-                res[1]=map.get(target-nums[i]);
+        int[] res = new int[2];
+        Map<Integer, Integer> map = new TreeMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                res[0] = i;
+                res[1] = map.get(target - nums[i]);
                 return res;
             }
-            map.put(nums[i],i);
+            map.put(nums[i], i);
         }
         return res;
     }
-//Group Anagrams
+
+    //Group Anagrams
     /*
     Description:
     Given an array of strings strs, group the anagrams together. You can return the answer in any order.
@@ -109,14 +110,41 @@ public class Solution {
 
      */
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String,List<String>> map = new HashMap<>();
-        for (String str: strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
             char[] a = str.toCharArray();
             Arrays.sort(a);
             String key = String.valueOf(a);
-            map.computeIfAbsent(key,s -> new ArrayList<>()).add(str);
+            map.computeIfAbsent(key, s -> new ArrayList<>()).add(str);
 
         }
         return new ArrayList<>(map.values());
+    }
+
+    //Product Of Array Except Self
+    /*
+   Description:
+   Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+    The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+    You must write an algorithm that runs in O(n) time and without using the division operation.
+    Link:https://leetcode.com/problems/product-of-array-except-self/
+    Solution:
+
+     */
+    public int[] productExceptSelf(int[] nums) {
+        int[] answer = new int[nums.length];
+        int coif =1;
+        //O(n²) solution
+  for (int i = 0; i < answer.length; i++) {
+            coif=1;
+            for (int j = 0; j < nums.length ; j++) {
+                if(j!=i){
+                    coif*=nums[j];
+                }
+            }
+            answer[i]=coif;
+        }
+
+        return answer;
     }
 }
