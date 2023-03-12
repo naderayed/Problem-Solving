@@ -1,2 +1,2 @@
-# Problem-Solving
-LeetCode Problems with Solution explanation (steps and ideas that i've followed )
+# Problem-Solving with LeetCode
+This repository contains my solutions to various coding problems from LeetCode.
