@@ -18,7 +18,6 @@ public class SquaresOfASortedArray {
             }else {
                 returnTab[current] =squareL;
                 last--;
-
             }
             current--;
 
