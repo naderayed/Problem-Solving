@@ -1,8 +1,6 @@
 package solutions;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class ValidAnagram {
 
@@ -22,9 +20,12 @@ Then create two maps where the key is the different char of the string
  Less complex solution, after transforming the strings into arrays
   just sort them and return Arrays.equals result
  */
+
+
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length())
             return false;
+
         char[] chars = s.toCharArray();
         char[] chart = t.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
@@ -51,5 +52,10 @@ Then create two maps where the key is the different char of the string
         Arrays.sort(chart);
         return Arrays.equals(chart, chars);
         */
+    }
+
+    public void sortColors(int[] nums) {
+
+
     }
 }

@@ -3,8 +3,6 @@ V
 &src/solutions/LongestCommonPrefix.java,2\b\2bcf8108e5511c600b8aaafaf9511afac82af2bb
 ]
 -src/solutions/LongestConsecutiveSequence.java,0\2\0284b4333719f55bf11b06c12fd7689b4324ddeb
-N
-src/solutions/ValidSudoku.java,0\d\0dc432be34321e0a2c90b32cf2b927b605c7a8dc
 [
 +src/solutions/ProductOfArrayExceptSelf.java,c\9\c9b4a466e516824fda5ad205013bc1db1b3cf3a3
 R
@@ -13,10 +11,6 @@ I
 src/solutions/TwoSum.java,a\c\ac89771839a0564334c24fa570475742c6fe0b02
 ]
 -src/solutions/TwoSumiiInputArrayIsSorted.java,7\7\77b1df2e398c7c8ee15a42b4c780d78e4dfc37e5
-T
-$src/solutions/ContainsDuplicate.java,3\a\3a1a49f73dd2af180dbef403aa535f51d6e20773
-R
-"src/solutions/FirstBadVersion.java,b\6\b6a153d2b85f87db2dace2d6bed139de1d2c9264
 c
 3src/solutions/LetterCombinationsOfaPhoneNumber.java,9\0\90e8733f86e1631539f7ec8a5f2bcbfa5e7bc1d2
 O
@@ -25,8 +19,6 @@ R
 "src/solutions/SearchA2dMatrix.java,e\0\e08e002d30e09354a2f77819843b1c997e973e81
 W
 'src/solutions/DefangingAnIPAddress.java,f\f\ffb5caefa7ff0f03dcfe2ac6f00029b0146bc315
-S
-#src/solutions/PalindromeNumber.java,c\5\c59803180eb811aa3d03c7a44045bd6c23f8b58c
 W
 'src/solutions/SearchInsertPosition.java,9\5\958c4481e623ef36308af9ef1d078dab42b205e6
 X
@@ -34,3 +26,19 @@ X
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+T
+$src/solutions/ContainsDuplicate.java,3\a\3a1a49f73dd2af180dbef403aa535f51d6e20773
+W
+'src/solutions/ConcatenationOfArray.java,f\1\f13f9d7b2f04c311ee2a9f24ee0749d4f0ab1a66
+S
+#src/solutions/PalindromeNumber.java,c\5\c59803180eb811aa3d03c7a44045bd6c23f8b58c
+N
+src/solutions/ValidSudoku.java,0\d\0dc432be34321e0a2c90b32cf2b927b605c7a8dc
+H
+src/MainApplication.java,6\a\6ac9a5e4bef8773e3a94234a45ca53c33d556a49
+R
+"src/solutions/FirstBadVersion.java,b\6\b6a153d2b85f87db2dace2d6bed139de1d2c9264
+S
+#src/solutions/ValidParentheses.java,0\c\0c34723f4e424202a8843d22fab617027de585a1
+O
+src/solutions/BinarySearch.java,c\0\c0739f5f0868e1de239ee1c44e850c2429f2d54e
