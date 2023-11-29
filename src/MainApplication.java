@@ -1,15 +1,12 @@
-import solutions.SelectionSort;
-import solutions.Student;
-
-import java.lang.reflect.Field;
-import java.util.Arrays;
+import solutions.Discount;
 
 public class MainApplication {
 
-    public static void main(String[] args) throws IllegalAccessException {
+    public static void main(String[] args)  {
 
-      var s = new SelectionSort();
-      int[] tab = {5,4,8,9,6,3,2,1};
-        System.out.println(Arrays.toString(s.selectSort(tab)));
+        var d = new Discount();
+        int [] tab = {1,20,5};
+        System.out.println(d.disc(tab,10));
     }
 }
+

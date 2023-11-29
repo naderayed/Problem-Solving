@@ -1,6 +1,7 @@
 package solutions;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class BinarySearch {
 
@@ -19,22 +20,6 @@ public class BinarySearch {
 
         */
 
-    public int search(int[] nums, int target) {
-        int first = 0;
-        int last = nums.length -1 ;
-        int current=0;
-        while(first <= last){
-            current=(first+last)/2;
-            if(target == nums[current])
-                return current;
-
-            if(target <nums[current])
-                last = current -1;
-
-            else first =current+1;
-        }
-        return -1;
-    }
 }
 
 

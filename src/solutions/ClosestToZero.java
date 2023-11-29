@@ -15,11 +15,12 @@ public class ClosestToZero {
             if(i < 0){
                 negativeInt.add(i);
             }
-            else if (i >=0){
+            else{
                 posInt.add(i);
             }
 
         }
+
         Collections.sort(negativeInt);
         int closestPos=  posInt.get(0);
         int closestNeg=  negativeInt.get(negativeInt.size()-1);
